@@ -1,42 +1,121 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  border: box-sizng;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: rgb(17, 17, 17);
+  color: white;
+}
+.portfolio {
+  display: flex;
+  flex-direction: row;
+}
+/*---------------------------------------------Nav Section styles------------------------------------------*/
+.nav_section {
+  position: fixed;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  background-color: #83c5be;
+  width: 25%;
+  height: 100%;
+  align-items: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.nav_section > div > img {
+  width: 80%;
+  border-radius: 61px;
+  height: 80%;
+  padding-top: 5%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav__lists {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 20px 0%;
+}
+.nav__lists > li {
+  padding-top: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav__lists > li > a {
+  font-size: 18px;
+  color: #14213d;
+  text-decoration: none;
 }
 
-.card {
-  padding: 2em;
+.nav__lists > li > a:hover {
+  background-color: #4cc9f0;
+
+  border-radius: 5px;
+}
+.nav__icons {
+  display: flex;
+  justify-content: space-around;
 }
 
-.read-the-docs {
-  color: #888;
+.nav__icons > figure {
+  padding: 0 12px;
+}
+.nav__icons > figure > img {
+  height: 40px;
+  width: 40px;
+  border: 10px;
+}
+
+main {
+  position: absolute;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*--------------------------------------------------------Home section styles----------------------------------------*/
+.home {
+  padding: 10% 10%;
+  height: 70vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url("./images/mulaudzifhatuwani2.png") no-repeat;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1%;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section1__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 4%;
+}
+
+.home_description {
+  padding: 4%;
+  color: #0dfbff;
+
+  line-height: 2.5;
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+}
+.About__me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 9%;
+  line-height: 2.5;
+}
+
+.hidden {
+  display: none;
 }

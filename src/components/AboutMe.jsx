@@ -9,7 +9,7 @@ export default function Aboutme() {
       <div className="flex justify-center items-center  ">
         <div className="   w-68 grow-0 shrink-0 basis-2/5">
           <img
-            src="./public/images/large.jpeg"
+            src="./images/large.jpeg"
             className=" rounded-md  h-80 w-full object-contain "
           />
         </div>

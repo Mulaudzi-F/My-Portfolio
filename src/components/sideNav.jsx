@@ -4,10 +4,7 @@ export default function Sidenav() {
   return (
     <section className="nav_section">
       <div>
-        <img
-          src="./public/images/mulaudzifhatuwani2.png"
-          className="profile__img"
-        />
+        <img src="./images/mulaudzifhatuwani2.png" className="profile__img" />
 
         <h2>Fhatuwani Mulaudzi</h2>
       </div>

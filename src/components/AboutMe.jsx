@@ -4,10 +4,16 @@ export default function Aboutme() {
   return (
     <section className="About__me">
       <div>
-        <h2>About Me</h2>
+        <h1>About Me</h1>
       </div>
-      <div>
-        <p className="about__content">
+      <div className="flex justify-center items-center  ">
+        <div className="   w-68 grow-0 shrink-0 basis-2/5">
+          <img
+            src="./public/images/large.jpeg"
+            className=" rounded-md  h-80 w-full object-contain "
+          />
+        </div>
+        <p className="about__content  grow-0 shrink-0 basis-3/5  px-2">
           Welcome to my digital world of innovation and creativity! I am
           thrilled to introduce you to my journey as an aspiring software
           developer. Within these digital realms, you'll discover the
@@ -26,10 +32,11 @@ export default function Aboutme() {
             innovation. Together, let's shape the future through the power of
             code. Thank you for visiting, and I invite you to explore the
             possibilities that await within these virtual walls.
-          </span>
+          </span>{" "}
+          <button>Read More</button>
         </p>
-        <button>Read More</button>
-        <br />
+      </div>
+      <div>
         <h3>
           <span>Let's code the future together!</span>
         </h3>

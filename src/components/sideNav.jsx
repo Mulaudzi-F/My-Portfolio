@@ -21,9 +21,7 @@ export default function Sidenav() {
         <li>
           <a href="#skills">skills</a>
         </li>
-        <li>
-          <a href="#Services">Resume</a>
-        </li>
+
         <li>
           <a href="#project">Project</a>
         </li>

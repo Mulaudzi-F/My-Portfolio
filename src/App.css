@@ -76,7 +76,7 @@ main {
 /*--------------------------------------------------------Home section styles----------------------------------------*/
 .home {
   padding: 10% 10%;
-  height: 70vh;
+  height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url("./images/mulaudzifhatuwani2.png") no-repeat;
@@ -112,8 +112,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 9%;
-  line-height: 2.5;
+  padding-top: 9%;
+  line-height: 2;
 }
 
 .hidden {

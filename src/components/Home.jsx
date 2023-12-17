@@ -13,7 +13,8 @@ export default function Home() {
             Within these digital realms, lies the culmination of my passion for
             coding, problem-solving, and turning ideas into elegant solutions
           </p>
-          <button>Get Cv</button>
+          <button className="bg-slate-700 m-3 px-5">Get Cv</button>
+          <button className="bg-slate-700 px-4">Contact Me</button>
         </div>
       </div>
     </section>

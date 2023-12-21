@@ -6,11 +6,11 @@ export default function Aboutme() {
       <div>
         <h1>About Me</h1>
       </div>
-      <div className="flex justify-center items-center  ">
-        <div className="   w-68 grow-0 shrink-0 basis-2/5">
+      <div className="flex justify-center items-center ">
+        <div className="px-3    w-68 grow-0 shrink-0 basis-2/5 ">
           <img
-            src="./images/large.jpeg"
-            className=" rounded-md  h-80 w-full object-contain "
+            src="./images/mulaudzifhatuwani2.png "
+            className=" h-full w-full object-contain rounded-lg  "
           />
         </div>
         <p className="about__content  grow-0 shrink-0 basis-3/5  px-2">

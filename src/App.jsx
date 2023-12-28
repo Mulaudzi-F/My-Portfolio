@@ -3,6 +3,7 @@ import { useState } from "react";
 import Sidenav from "./components/sideNav";
 import AboutMe from "./components/AboutMe";
 import Home from "./components/Home";
+import Skills from "./components/skills";
 
 import "./App.css";
 
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Home />
         <AboutMe />
+        <Skills />
       </main>
     </div>
   );

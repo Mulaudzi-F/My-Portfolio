@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Home() {
   return (
-    <section className="home  from-black via-black to-transparent " id="home">
+    <section
+      className="home bg-[url('./images/home-background.jpeg')] bg-cover bg-no-repeat from-black via-black to-transparent "
+      id="home"
+    >
       <div className="section1__container">
         <div className="home_description">
           <h3>

@@ -37,6 +37,7 @@ export default function Sidenav() {
           <img src="./images/twitter.png" alt="twitter" />
         </figure>
       </div>
+      <p className="p-6">CopyRight @ 2024. All right reserved</p>
     </section>
   );
 }

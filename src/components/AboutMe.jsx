@@ -4,7 +4,7 @@ export default function Aboutme() {
   return (
     <section className="About__me">
       <div>
-        <h1>About Me</h1>
+        <h1 className="text-center text-3xl">About Me</h1>
       </div>
       <div className="flex justify-center items-center ">
         <div className="px-3    w-68 grow-0 shrink-0 basis-2/5 ">

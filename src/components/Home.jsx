@@ -3,11 +3,11 @@ import React from "react";
 export default function Home() {
   return (
     <section
-      className="home bg-[url('./images/home-background.jpeg')] bg-cover bg-no-repeat from-black via-black to-transparent "
+      className="home bg-[url('./images/home-background.jpeg')] backdrop-contrast-50  "
       id="home"
     >
-      <div className="section1__container">
-        <div className="home_description">
+      <div className="section1__container ">
+        <div className="home_description text-[#e9ecef] font-bold z-20 ">
           <h3>
             Greetings My name is <span>Fhatuwani Mulaudzi</span>
           </h3>

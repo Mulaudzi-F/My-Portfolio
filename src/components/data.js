@@ -2,7 +2,7 @@ const projectData = [
   {
     name: "Digital Resume",
     browserLink: "",
-    image: "",
+    image: "./images/resume.png",
   },
   {
     name: "MMGSteelDoctor Website",

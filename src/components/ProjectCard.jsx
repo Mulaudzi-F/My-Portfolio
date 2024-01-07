@@ -3,8 +3,8 @@ import React from "react";
 export default function ProjectCard({ item }) {
   console.log(item);
   return (
-    <div className="flex flex-col">
-      <div className="p-10">
+    <div className="flex flex-col w-full 	justify-center bg-[#b69121]">
+      <div className="">
         <img src={item.image} />
       </div>
       <div className="flex justify-between">

@@ -4,8 +4,7 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: rgb(17, 17, 17);
-  color: white;
+  background-color: #cccccc;
 }
 .portfolio {
   display: flex;
@@ -59,7 +58,7 @@ body {
 .nav__icons > figure {
   padding: 0 12px;
 }
-.nav__icons > figure > img {
+.nav__icons > figure > a > img {
   height: 40px;
   width: 40px;
   border: 10px;

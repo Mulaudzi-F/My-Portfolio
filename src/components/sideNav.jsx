@@ -6,7 +6,7 @@ export default function Sidenav() {
       <div>
         <img src="./images/mulaudzifhatuwani2.png" className="profile__img" />
 
-        <h2>Fhatuwani Mulaudzi</h2>
+        <h2 className="text-[#14213d]">Fhatuwani Mulaudzi</h2>
       </div>
       <ul className="nav__lists">
         <li>
@@ -28,16 +28,22 @@ export default function Sidenav() {
       </ul>
       <div className="nav__icons">
         <figure>
-          <img src="./images/linkedin.png" alt="linkedin icon" />
+          <a href="www.linkedin.com/in/fhatuwani-brighton-mulaudzi-a861791b8">
+            <img src="./images/linkedin.png" alt="linkedin icon" />
+          </a>
         </figure>
         <figure>
-          <img src="./images/github.png" alt="github icon" />
+          <a href="https://github.com/Mulaudzi-F">
+            <img src="./images/github.png" alt="github icon" />
+          </a>
         </figure>
         <figure>
-          <img src="./images/twitter.png" alt="twitter" />
+          <a href="#">
+            <img src="./images/twitter.png" alt="twitter" />
+          </a>
         </figure>
       </div>
-      <p className="p-6">CopyRight @ 2024. All right reserved</p>
+      <p className="p-6 text-[#14213d]">CopyRight @ 2024. All right reserved</p>
     </section>
   );
 }

@@ -25,17 +25,6 @@ export default function Aboutme() {
             technology. This portfolio is a testament to my dedication and
             commitment to honing my skills and pushing the boundaries of what's
             possible in the world of software development.
-            <span className="hidden">
-              You'll find a collection of projects that showcase my
-              determination to create efficient, user-friendly, and impactful
-              software. Each line of code represents countless hours of
-              learning, problem-solving, and relentless pursuit of excellence.
-              Join me as I continue to embark on this exhilarating journey of
-              growth and innovation. Together, let's shape the future through
-              the power of code. Thank you for visiting, and I invite you to
-              explore the possibilities that await within these virtual walls.
-            </span>{" "}
-            <button>Read More</button>
           </p>
         </div>
         <div>

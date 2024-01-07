@@ -11,15 +11,13 @@ import { AnimatePresence } from "framer-motion";
 import "./App.css";
 
 function App() {
-  const location = useLocation();
-
   return (
     <BrowserRouter>
       <div className="portfolio">
         <Sidenav />
-        <main>
-          <AnimatePresence exitBeforeEnter>
-            <Routes key={location.pathname} location={location}>
+        <main className="w-4/5">
+          <AnimatePresence>
+            <Routes>
               <Route path="/" element={<Home />} />
               <Route path="about" element={<AboutMe />} />
               <Route path="skills" element={<Skills />} />

@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <AnimatedPages>
       <section
-        className="home bg-[url('./images/home-background.jpeg')]   "
+        className="home bg-[url('./images/home-background.jpeg')]  bg-no-repeat bg-cover "
         id="home"
       >
         <div className="section1__container ">
-          <div className="home_description text-[#e9ecef] font-bold  ">
+          <div className="home_description text-[#41bbd9] font-bold  ">
             <h3>
               Greetings My name is <span>Fhatuwani Mulaudzi</span>
             </h3>

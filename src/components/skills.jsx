@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <AnimatedPages>
       <section className="grid items-center w-full grid-cols-2 ">
-        <div className="p-5">
+        <div className="p-5 w-full">
           <h3 className="text-center text-3xl">Technical Skills</h3>
           <div className="p-8 pl-16">
             <div className="flex pt-3 w-full">

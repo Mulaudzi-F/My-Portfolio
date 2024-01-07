@@ -11,7 +11,7 @@ export default function Project() {
     <AnimatedPages>
       <div>
         <h1 className="text-center  text-3xl">My Projects</h1>
-        <div className="grid grid-cols-2 px-10  grid-rows-4 gap-2">
+        <div className="grid grid-cols-2 p-10  grid-rows-4 gap-2">
           {project}
         </div>
       </div>

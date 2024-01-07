@@ -5,7 +5,7 @@ const projectData = [
     image: "./images/resume.png",
   },
   {
-    name: "MMGSteelDoctor Website",
+    name: "MMGSteelDoctor ",
     browserLink: "https://mmgsteeldoctor.netlify.app/",
     image: "./images/mmg steel doctor.png",
   },

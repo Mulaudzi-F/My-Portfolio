@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 export default function Sidenav() {
   return (
     <section className="nav_section">
@@ -10,20 +10,20 @@ export default function Sidenav() {
       </div>
       <ul className="nav__lists">
         <li>
-          <a href="#home">Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a href="#about">About</a>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <a href="#skills">skills</a>
+          <NavLink to="/skills">Skills</NavLink>
         </li>
 
         <li>
-          <a href="#project">Project</a>
+          <NavLink to="/project">Projects</NavLink>
         </li>
         <li>
-          <a href="#contact">Contact_Me</a>
+          <NavLink to="/contact">Contact Me</NavLink>
         </li>
       </ul>
       <div className="nav__icons">

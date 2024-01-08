@@ -20,12 +20,17 @@ export default function Contact() {
               </li>
             </ul>
           </div>
-          <form className="flex px-20 flex-col gap-3   ">
+          <form
+            action="https://formsubmit.co/mulaudzifhatuwanib20@gmail.com"
+            method="POST"
+            className="flex px-20 flex-col gap-3   "
+          >
             <input
               type="text"
               required
               placeholder="Name"
               className="px-20 h-10"
+              name="name"
             />
 
             <input
@@ -33,9 +38,14 @@ export default function Contact() {
               required
               placeholder="Email"
               className="h-10 px-20"
+              name="email"
             />
 
-            <textarea placeholder="Message" className="px-20 h-40"></textarea>
+            <textarea
+              placeholder="Message"
+              className="px-20 h-40"
+              name="message"
+            ></textarea>
             <button className="bg-[#83c5be] h-12 px-2 rounded-md">Send</button>
           </form>
         </div>

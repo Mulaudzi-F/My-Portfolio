@@ -4,12 +4,16 @@ import AnimatedPages from "./AnimatedPage";
 export default function Home() {
   return (
     <AnimatedPages>
-      <section
-        className="home bg-[url('./images/home-background.jpeg')]  bg-no-repeat bg-cover "
-        id="home"
-      >
-        <div className="section1__container ">
-          <div className="home_description text-[#41bbd9] font-bold  ">
+      <section className="home w-full " id="home">
+        <div className="section1__container items-center w-full flex">
+          <div className="w-full rounded-none z-[-10]">
+            <img
+              src="./images/large 2.png"
+              className="w-full rounded-none h-100 "
+              alt="my home picture"
+            />
+          </div>
+          <div className="home_description  font-bold  ">
             <h3>
               Greetings My name is <span>Fhatuwani Mulaudzi</span>
             </h3>
@@ -20,7 +24,6 @@ export default function Home() {
               solutions
             </p>
             <button className="bg-slate-700 m-3 px-5">Get Cv</button>
-            <button className="bg-slate-700 px-4">Contact Me</button>
           </div>
         </div>
       </section>

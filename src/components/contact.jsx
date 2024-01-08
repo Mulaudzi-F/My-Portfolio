@@ -9,6 +9,10 @@ export default function Contact() {
         <div className="flex  w-full border-2  rounded-t-2xl  pt-10 pl-20">
           <div className="  px-20">
             <h2 className="text-xl">Get in Touch</h2>
+            <p>
+              I would love the opportunity to connect with you and discuss
+              potential synergies or explore ways we could collaborate.{" "}
+            </p>
             <ul>
               <li className="flex">
                 <img src="./images/phone.png" className="w-5" />

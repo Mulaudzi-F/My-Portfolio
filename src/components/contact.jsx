@@ -13,7 +13,7 @@ export default function Contact() {
               I would love the opportunity to connect with you and discuss
               potential synergies or explore ways we could collaborate.{" "}
             </p>
-            <ul>
+            <ul className="pt-10">
               <li className="flex">
                 <img src="./images/phone.png" className="w-5" />
                 <span>069 370 1969</span>

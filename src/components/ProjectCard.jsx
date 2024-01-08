@@ -4,7 +4,7 @@ export default function ProjectCard({ item }) {
   console.log(item);
   return (
     <div className="flex flex-col w-full  bg-[#83c5be] rounded-t-xl ">
-      <div className="rounded-t-xl ">
+      <div className="rounded-t-xl  ">
         <img className="object-cover rounded-t-xl " src={item.image} />
       </div>
       <div className="flex justify-between mt-2">

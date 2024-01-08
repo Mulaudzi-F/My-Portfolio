@@ -11,7 +11,7 @@ export default function Aboutme() {
         <div className="flex justify-center items-center ">
           <div className="px-3    w-68 grow-0 shrink-0 basis-2/5 ">
             <img
-              src="./images/mulaudzifhatuwani2.png "
+              src="./images/large 2.png "
               className=" h-full w-full object-contain rounded-lg  "
             />
           </div>

@@ -8,7 +8,7 @@ export default function Home() {
         <div className="section1__container items-center w-full flex">
           <div className="w-full rounded-none z-[-10]">
             <img
-              src="./images/large 2.png"
+              src="./images/mulaudzifhatuwani2.png "
               className="w-full rounded-none h-100 "
               alt="my home picture"
             />
@@ -17,13 +17,18 @@ export default function Home() {
             <h3>
               Greetings My name is <span>Fhatuwani Mulaudzi</span>
             </h3>
-            <p>I'm Software developer</p>
+            <p className="animated-text">
+              I'm
+              <span className="first-text"></span>
+            </p>
             <p>
               Within these digital realms, lies the culmination of my passion
               for coding, problem-solving, and turning ideas into elegant
               solutions
             </p>
-            <button className="bg-slate-700 m-3 px-5">Get Cv</button>
+            <button className="bg-[#83c5be] m-3 px-16 rounded-xl">
+              Get Cv
+            </button>
           </div>
         </div>
       </section>

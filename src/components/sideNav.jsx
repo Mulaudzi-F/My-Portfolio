@@ -27,17 +27,17 @@ export default function Sidenav() {
         </li>
       </ul>
       <div className="nav__icons">
-        <figure>
+        <figure className="hover:scale-125 ">
           <a href="www.linkedin.com/in/fhatuwani-brighton-mulaudzi-a861791b8">
             <img src="./images/linkedin.png" alt="linkedin icon" />
           </a>
         </figure>
-        <figure>
+        <figure className="hover:scale-125">
           <a href="https://github.com/Mulaudzi-F">
             <img src="./images/github.png" alt="github icon" />
           </a>
         </figure>
-        <figure>
+        <figure className="hover:scale-125">
           <a href="#">
             <img src="./images/twitter.png" alt="twitter" />
           </a>

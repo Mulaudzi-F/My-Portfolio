@@ -14,7 +14,7 @@ export default function AnimatedPages({ children }) {
       animate="animate"
       exit="exit"
       transition={{ duration: 1 }}
-      className="w-full"
+      className="w-full items-center"
     >
       {children}
     </motion.div>

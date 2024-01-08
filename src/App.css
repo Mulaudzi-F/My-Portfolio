@@ -44,12 +44,19 @@ body {
   color: #14213d;
   text-decoration: none;
 }
-
-.nav__lists > li > a:hover {
-  background-color: #4cc9f0;
-
-  border-radius: 5px;
+.nav__lists > li > a:after {
+  content: "";
+  display: block;
+  background-color: #cccccc;
+  height: 3px;
+  width: 0%;
+  margin-left: 0;
+  transition: 0.3s;
 }
+.nav__lists > li > a:hover:after {
+  width: 75%;
+}
+
 .nav__icons {
   display: flex;
   justify-content: space-around;

@@ -6,10 +6,10 @@ export default function Contact() {
     <AnimatedPages>
       <div className="w-full pt-20 shadow-lg  ">
         <h2 className="text-center text-3xl">Contact Me</h2>
-        <div className="flex  w-full border-2  rounded-t-2xl  pt-10 pl-20">
+        <div className="flex  w-full border-2 items-center  rounded-t-2xl  pt-10 pl-20">
           <div className="  px-20">
             <h2 className="text-xl">Get in Touch</h2>
-            <p>
+            <p className="pt-4 ">
               I would love the opportunity to connect with you and discuss
               potential synergies or explore ways we could collaborate.{" "}
             </p>
@@ -29,6 +29,7 @@ export default function Contact() {
             method="POST"
             className="flex px-20 flex-col gap-3   "
           >
+            <h3 className="text-center text-xl">Leave a message Here👇</h3>
             <input
               type="text"
               required

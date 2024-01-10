@@ -47,7 +47,7 @@ body {
 .nav__lists > li > a:after {
   content: "";
   display: block;
-  background-color: #cccccc;
+  background-color: #ff7f50;
   height: 3px;
   width: 0%;
   margin-left: 0;
@@ -113,7 +113,7 @@ main {
   position: absolute;
   width: calc(100% + 8px);
   height: 100%;
-  background-color: #cccccc;
+  background-color: #83c5be;
   border-left: 2px solid #ff7f50;
   right: -8px;
   top: 0;

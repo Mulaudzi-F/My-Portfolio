@@ -6,7 +6,12 @@ export default function Sidenav() {
       <div>
         <img src="./images/mulaudzifhatuwani2.png" className="profile__img" />
 
-        <h2 className="text-[#14213d]">Fhatuwani Mulaudzi</h2>
+        <h2 className="text-[#14213d] text-2xl">Fhatuwani Mulaudzi</h2>
+        <p className="animated-text text-center">
+          <small>
+            <span className="first-text"></span>
+          </small>
+        </p>
       </div>
       <ul className="nav__lists">
         <li>

@@ -4,7 +4,7 @@ import AnimatedPages from "./AnimatedPage";
 export default function Skills() {
   return (
     <AnimatedPages>
-      <section className="grid items-center w-full items-center grid-cols-2 ">
+      <section className="grid items-center w-full items-center lg:grid-cols-2 grid-cols-1 max-w-screen-xl mx-auto overflow-x-hidden ">
         <div className="p-5 w-full">
           <h3 className="text-center text-3xl">Technical Skills</h3>
           <div className="p-8 pl-16">

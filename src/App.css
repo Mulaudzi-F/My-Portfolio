@@ -2,9 +2,12 @@
   margin: 0;
   border: box-sizng;
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 body {
   background-color: #cccccc;
+  overflow-x: hidden;
 }
 .portfolio {
   display: flex;
@@ -33,6 +36,8 @@ body {
   display: flex;
   flex-direction: column;
   list-style-type: none;
+  justify-content: center;
+  align-items: center;
   padding: 20px 0%;
 }
 .nav__lists > li {
@@ -73,7 +78,7 @@ body {
 
 main {
   position: absolute;
-  left: 20%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;

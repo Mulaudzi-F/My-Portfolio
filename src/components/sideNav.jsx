@@ -1,19 +1,21 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-export default function Sidenav() {
+export default function Sidenav({ smallDevices }) {
   return (
-    <section className="nav_section">
+    <section
+      className={`nav_section overflow-hidden ${
+        smallDevices.width < 768 ? "hidden" : "block"
+      }  md:w-20%`}
+    >
       <div>
         <img src="./images/mulaudzifhatuwani2.png" className="profile__img" />
 
-        <h2 className="text-[#14213d] text-2xl">Fhatuwani Mulaudzi</h2>
+        <h2 className="text-[#14213d] ml-6 text-2xl">Fhatuwani Mulaudzi</h2>
         <p className="animated-text text-center">
-          <small>
-            <span className="first-text"></span>
-          </small>
+          <span className="first-text"></span>
         </p>
       </div>
-      <ul className="nav__lists">
+      <ul className="nav__lists ">
         <li>
           <NavLink to="/">Home</NavLink>
         </li>
@@ -33,12 +35,15 @@ export default function Sidenav() {
       </ul>
       <div className="nav__icons">
         <figure className="hover:scale-125 ">
-          <a href="www.linkedin.com/in/fhatuwani-brighton-mulaudzi-a861791b8">
+          <a
+            href=" https:www.linkedin.com/in/fhatuwani-brighton-mulaudzi-a861791b8"
+            target="blank"
+          >
             <img src="./images/linkedin.png" alt="linkedin icon" />
           </a>
         </figure>
         <figure className="hover:scale-125">
-          <a href="https://github.com/Mulaudzi-F">
+          <a href="https://github.com/Mulaudzi-F" target="blank">
             <img src="./images/github.png" alt="github icon" />
           </a>
         </figure>

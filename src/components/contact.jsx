@@ -4,9 +4,9 @@ import AnimatedPages from "./AnimatedPage";
 export default function Contact() {
   return (
     <AnimatedPages>
-      <div className="w-full pt-20 shadow-lg  ">
+      <div className="w-full overflow-x-hidden pt-20 shadow-lg px-10 ">
         <h2 className="text-center text-3xl">Contact Me</h2>
-        <div className="flex  w-full border-2 items-center  rounded-t-2xl  pt-10 pl-20">
+        <div className="flex flex-col lg:flex-row gap-7 overflow-x-hidden  w-full border-2 items-center  rounded-t-2xl  pt-10 pl-20">
           <div className="  px-20">
             <h2 className="text-xl">Get in Touch</h2>
             <p className="pt-4 ">
@@ -27,7 +27,7 @@ export default function Contact() {
           <form
             action="https://formsubmit.co/mulaudzifhatuwanib20@gmail.com"
             method="POST"
-            className="flex px-20 flex-col gap-3   "
+            className="flex  justify-center flex-col gap-3  lg:pr-14 "
           >
             <h3 className="text-center text-xl">Leave a message Here👇</h3>
             <input

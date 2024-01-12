@@ -10,7 +10,7 @@ const projectData = [
     image: "./images/mmg steel doctor.png",
   },
   {
-    name: "BookConnect App",
+    name: "BookConnect",
     browserLink: "https://fhatuwanimulaudzibookconnectapp.netlify.app",
     image: "./images/bookconnect.png",
   },
@@ -31,12 +31,12 @@ const projectData = [
     image: "./images/travel app.png",
   },
   {
-    name: "pizza Menu Website",
+    name: "pizza Menu ",
     browserLink: "https://taupe-bombolone-ff1297.netlify.app",
     image: "./images/pizza menu.png",
   },
   {
-    name: "UsePopCorn Movies App",
+    name: " Movies App",
     browserLink: "https://leafy-gaufre-d6f5cf.netlify.app",
     image: "./images/usepopcorn.png",
   },

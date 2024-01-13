@@ -4,8 +4,8 @@ import AnimatedPages from "./AnimatedPage";
 export default function Skills() {
   return (
     <AnimatedPages>
-      <section className="grid items-center w-full items-center lg:grid-cols-2 grid-cols-1 max-w-screen-xl mx-auto overflow-x-hidden ">
-        <div className="p-5 w-full">
+      <section className="grid items-center mt-60   w-full items-center lg:grid-cols-2 grid-cols-1 max-w-screen-xl mx-auto overflow-x-hidden ">
+        <div className="p-5 ml-3 w-full">
           <h3 className="text-center text-3xl">Technical Skills</h3>
           <div className="p-8 pl-16">
             <div className="flex pt-3 w-full">
@@ -60,7 +60,7 @@ export default function Skills() {
         </div>
         <div>
           <h3 className="text-center text-3xl">Soft Skills</h3>
-          <div className="p-8">
+          <div className="p-8 ml-16">
             <div className="flex pt-3 w-full">
               <p>Communication</p>
               <div className=" bg-amber-400 w-2/5 mt-1 ml-9 h-3">
@@ -88,6 +88,12 @@ export default function Skills() {
             <div className="flex pt-3 w-full">
               <p>Continous Learning</p>
               <div className="bg-amber-400 w-2/5 mt-1 ml-3 h-3">
+                <div className=" bg-[#83c5be] w-11/12 h-3"></div>
+              </div>
+            </div>
+            <div className="flex pt-3 w-full">
+              Handling Pressure
+              <div className="bg-amber-400 w-2/5 mt-1 ml-4 h-3">
                 <div className=" bg-[#83c5be] w-11/12 h-3"></div>
               </div>
             </div>

@@ -4,8 +4,8 @@ import AnimatedPages from "./AnimatedPage";
 export default function Aboutme() {
   return (
     <AnimatedPages>
-      <section className="About__me overflow-x-hidden">
-        <div className="pt-16 mt-8">
+      <section className="About__me sm:mt-20   overflow-x-hidden">
+        <div className=" mt-8">
           <h1 className="text-center text-3xl">About Me</h1>
         </div>
         <div className="flex flex-col justify-center items-center lg:flex-row ">
@@ -16,7 +16,7 @@ export default function Aboutme() {
               alt="Your Alt Text"
             />
           </div>
-          <div className="about__content px-2">
+          <div className="about__content  ">
             <p className="overflow-hidden">
               Welcome to my digital world of innovation and creativity! I am
               thrilled to introduce you to my journey as an aspiring software

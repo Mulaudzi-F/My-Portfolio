@@ -17,6 +17,7 @@ function App() {
     width: window.innerWidth,
   });
   const [openSideNav, setOpenSideNav] = useState(false);
+
   function handleSideNav() {
     setOpenSideNav(!openSideNav);
   }
@@ -38,9 +39,9 @@ function App() {
   return (
     <div className="">
       {smallDevices.width < 768 ? (
-        <div className="flex flex-col w-full border-4 bg-red-700">
+        <div className="flex flex-col w-full ">
           <Menu openSideNav={openSideNav} handleSideNav={handleSideNav} />
-          <main className="flex flex-col">
+          <main className="flex flex-col  overflow-x-hidden">
             <SmallNav openSideNav={openSideNav} handleSideNav={handleSideNav} />
             <Home />
             <AboutMe />
@@ -51,10 +52,10 @@ function App() {
         </div>
       ) : (
         <BrowserRouter>
-          <div className="portfolio">
+          <div className="portfolio ">
             <Sidenav smallDevices={smallDevices} />
 
-            <main className="w-full md:w-[80%] md:left-[20%]">
+            <main className="w-full md:w-[80%] overflow-x-hidden  md:left-[20%]">
               <AnimatePresence>
                 <Routes>
                   <Route path="/" element={<Home />} />

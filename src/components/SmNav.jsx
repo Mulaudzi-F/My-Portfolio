@@ -1,18 +1,21 @@
 import React from "react";
 
 export default function SmallNav({ openSideNav, handleSideNav }) {
+  console.log(openSideNav);
   return (
     <div
-      className={`bg-[#83c5be] fixed z-10 w-full ${
+      className={`bg-[#83c5be]  ${
         openSideNav ? "block" : "hidden"
-      } `}
+      } z-10 w-full block `}
     >
       <h1 onClick={handleSideNav} className="text-end m-6 text-3xl z-10">
         <ion-icon name="close-outline"></ion-icon>
       </h1>
-      <ul className="nav__lists pt-0 pl-6">
+      <ul className="nav__lists pt-0 pl-6 ">
         <li>
-          <a href="">Home</a>
+          <a className="active:text-[#ff7f50]" href="">
+            Home
+          </a>
         </li>
         <li>
           <a href="">About</a>

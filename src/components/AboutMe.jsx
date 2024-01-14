@@ -4,19 +4,21 @@ import AnimatedPages from "./AnimatedPage";
 export default function Aboutme() {
   return (
     <AnimatedPages>
-      <section className="About__me sm:mt-20   overflow-x-hidden">
+      <section className="About__me sm:mt-20 md:h-screen  overflow-x-hidden">
         <div className=" mt-8">
-          <h1 className="text-center text-3xl">About Me</h1>
+          <h1 className="text-center underline decoration-8 decoration-[#83c5be] text-3xl">
+            About Me
+          </h1>
         </div>
         <div className="flex flex-col justify-center items-center lg:flex-row ">
-          <div className="px-3 w-full lg:w-68">
+          <div className="px-3  lg:w-full">
             <img
               src="./images/large 2.png"
               className="h-full w-full object-contain rounded-lg"
-              alt="Your Alt Text"
+              alt="Fhatuwani Mulaudzi image"
             />
           </div>
-          <div className="about__content  ">
+          <div className="about__content mx-10 overflow-x-hidden ">
             <p className="overflow-hidden">
               Welcome to my digital world of innovation and creativity! I am
               thrilled to introduce you to my journey as an aspiring software

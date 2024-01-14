@@ -7,7 +7,7 @@
 }
 body {
   background-color: #cccccc;
-
+  max-width: 100%;
   overflow-x: hidden;
 }
 .portfolio {
@@ -83,7 +83,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
   box-shadow:
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -91,9 +91,8 @@ main {
 }
 /*--------------------------------------------------------Home section styles----------------------------------------*/
 .home {
-  height: 100vh;
-
   display: flex;
+  height: 100vh;
 }
 
 .home_description {
@@ -188,5 +187,4 @@ main {
   align-items: center;
 
   line-height: 2;
-  height: 120vh;
 }

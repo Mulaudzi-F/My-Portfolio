@@ -6,7 +6,7 @@ export default function Menu({ openSideNav, handleSideNav }) {
       onClick={handleSideNav}
       className={`fixed p-4 z-10 shadow-lg ${
         openSideNav ? "hidden" : "block"
-      } text-5xl rounded w-full  bg-[#83c5be]  md:hidden`}
+      } text-5xl rounded border-4 border-[#83c5be] hover:bg-[#83c5be] md:hidden`}
     >
       <ion-icon name="menu-outline"></ion-icon>
     </div>

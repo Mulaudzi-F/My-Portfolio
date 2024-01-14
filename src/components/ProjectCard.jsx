@@ -8,10 +8,10 @@ export default function ProjectCard({ item }) {
       </div>
       <div className="flex justify-between mt-2">
         <h2 className="ml-8 text-xl">{item.name}</h2>
-        <button className=" rounded-md flex item-center bg-[#0077b6] m-2 ">
+        <button className=" rounded-md flex item-center p-2 bg-[#0077b6] m-2 ">
           <a
             href={item.browserLink}
-            className="relative mr-16 mt-2 left-5 text-[#edede9]"
+            className="relative mr-16 mt-2  text-[#edede9]"
           >
             View
           </a>

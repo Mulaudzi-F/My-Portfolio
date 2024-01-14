@@ -5,29 +5,29 @@ export default function SmallNav({ openSideNav, handleSideNav }) {
   return (
     <div
       className={`bg-[#83c5be]  ${
-        openSideNav ? "block" : "hidden"
-      } z-10 w-full block `}
+        openSideNav ? "block" : "invisible"
+      } z-10 w-1/2 rounded shadow-lg  `}
     >
-      <h1 onClick={handleSideNav} className="text-end m-6 text-3xl z-10">
+      <h1 onClick={handleSideNav} className="  text-3xl z-10">
         <ion-icon name="close-outline"></ion-icon>
       </h1>
-      <ul className="nav__lists pt-0 pl-6 ">
-        <li>
-          <a className="active:text-[#ff7f50]" href="">
+      <ul className="flex flex-col justify-center items-center  ">
+        <li className="mt-4">
+          <a className=" active:text-[#ff7f50]" href="">
             Home
           </a>
         </li>
-        <li>
+        <li className="mt-4">
           <a href="">About</a>
         </li>
-        <li>
+        <li className="mt-4">
           <a href="">Skills</a>
         </li>
 
-        <li>
+        <li className="mt-4">
           <a href="">Projects</a>
         </li>
-        <li>
+        <li className="mt-4">
           <a href="">Contact Me</a>
         </li>
       </ul>

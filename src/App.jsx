@@ -39,12 +39,13 @@ function App() {
   return (
     <div className="">
       {smallDevices.width < 768 ? (
-        <div className="flex flex-col w-full ">
+        <div className=" w-full ">
           <Menu openSideNav={openSideNav} handleSideNav={handleSideNav} />
           <main className="flex flex-col  overflow-x-hidden">
             <SmallNav openSideNav={openSideNav} handleSideNav={handleSideNav} />
             <Home />
             <AboutMe />
+
             <Skills />
             <Project />
             <Contact />

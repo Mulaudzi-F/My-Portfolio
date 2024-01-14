@@ -4,9 +4,9 @@ import AnimatedPages from "./AnimatedPage";
 export default function Aboutme() {
   return (
     <AnimatedPages>
-      <section className="About__me sm:mt-20 md:h-screen  overflow-x-hidden">
+      <section className="About__me sm:mt-20 md:h-screen font-serif overflow-x-hidden">
         <div className=" mt-8">
-          <h1 className="text-center underline decoration-8 decoration-[#83c5be] text-3xl">
+          <h1 className="text-center font-serif underline decoration-8 decoration-[#83c5be] text-3xl">
             About Me
           </h1>
         </div>

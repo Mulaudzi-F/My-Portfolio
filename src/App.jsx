@@ -41,7 +41,7 @@ function App() {
       {smallDevices.width < 768 ? (
         <div className=" w-full ">
           <Menu openSideNav={openSideNav} handleSideNav={handleSideNav} />
-          <main className="flex flex-col  overflow-x-hidden">
+          <main className="flex flex-col font-sans overflow-x-hidden">
             <SmallNav openSideNav={openSideNav} handleSideNav={handleSideNav} />
             <Home />
             <AboutMe />

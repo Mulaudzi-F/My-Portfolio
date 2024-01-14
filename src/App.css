@@ -95,6 +95,10 @@ main {
   display: flex;
   height: 100vh;
 }
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
 
 .home_description {
   padding: 4%;

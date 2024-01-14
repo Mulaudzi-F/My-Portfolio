@@ -43,12 +43,12 @@ function App() {
           <Menu openSideNav={openSideNav} handleSideNav={handleSideNav} />
           <main className="flex flex-col font-sans overflow-x-hidden">
             <SmallNav openSideNav={openSideNav} handleSideNav={handleSideNav} />
-            <Home />
-            <AboutMe />
+            <Home smallDevices={smallDevices.width} />
+            <AboutMe smallDevices={smallDevices.width} />
 
-            <Skills />
-            <Project />
-            <Contact />
+            <Skills smallDevices={smallDevices.width} />
+            <Project smallDevices={smallDevices.width} />
+            <Contact smallDevices={smallDevices.width} />
           </main>
         </div>
       ) : (

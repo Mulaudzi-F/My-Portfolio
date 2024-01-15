@@ -53,7 +53,7 @@ export default function Sidenav({ smallDevices }) {
           </a>
         </figure>
       </div>
-      <p className="p-6 text-[#14213d]">CopyRight @ 2024. All right reserved</p>
+      <p className="p-4 text-[#14213d]">CopyRight @ 2024. All right reserved</p>
     </section>
   );
 }

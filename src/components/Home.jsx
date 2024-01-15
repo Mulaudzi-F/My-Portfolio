@@ -100,7 +100,8 @@ export default function Home({ smallDevices }) {
               </div>
               <div className="home_description mx-10   lg:leading-[2.5rem] lg:text-[1.5rem] font-bold text-sm ">
                 <h3>
-                  Greetings My name is <span>Fhatuwani Mulaudzi</span>
+                  Greetings My name is{" "}
+                  <span className="text-[#ff7f50]">Fhatuwani Mulaudzi</span>
                 </h3>
                 {smallDevices < 768 ? (
                   <p className="animated-text ">

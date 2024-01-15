@@ -52,27 +52,7 @@ export default function Contact({ smallDevices }) {
             <div className="flex flex-col lg:flex-row gap-7 overflow-x-hidden mt-10 w-full border-2 items-center  rounded-t-2xl  pt-10 pl-20">
               <div className="  mx-20">
                 <h2 className="text-xl">Get in Touch</h2>
-                <div className="flex">
-                  <div className="nav__icons flex-col w-1/2">
-                    <figure className="hover:scale-125 p-0 ">
-                      <a
-                        href=" https:www.linkedin.com/in/fhatuwani-brighton-mulaudzi-a861791b8"
-                        target="blank"
-                      >
-                        <img src="./images/linkedin.png" alt="linkedin icon" />
-                      </a>
-                    </figure>
-                    <figure className="hover:scale-125 p-0">
-                      <a href="https://github.com/Mulaudzi-F" target="blank">
-                        <img src="./images/github.png" alt="github icon" />
-                      </a>
-                    </figure>
-                    <figure className="hover:scale-125 p-0">
-                      <a href="#">
-                        <img src="./images/twitter.png" alt="twitter" />
-                      </a>
-                    </figure>
-                  </div>
+                <div className="flex w-full">
                   <div>
                     <p className="pt-4 ">
                       I would love the opportunity to connect with you and
@@ -87,6 +67,44 @@ export default function Contact({ smallDevices }) {
                       <li className="flex">
                         <img src="./images/email.png" className="w-5" />
                         <span>mulaudzifhatuwanib20@gmail.com</span>
+                      </li>
+                      <li>
+                        {" "}
+                        <div className="nav__icons mt-6 flex-row w-full">
+                          <figure className="hover:scale-125 p-0 ">
+                            <a
+                              href=" https:www.linkedin.com/in/fhatuwani-brighton-mulaudzi-a861791b8"
+                              target="blank"
+                            >
+                              <img
+                                className="5"
+                                src="./images/linkedin.png"
+                                alt="linkedin icon"
+                              />
+                            </a>
+                          </figure>
+                          <figure className="hover:scale-125 p-0">
+                            <a
+                              href="https://github.com/Mulaudzi-F"
+                              target="blank"
+                            >
+                              <img
+                                className="5"
+                                src="./images/github.png"
+                                alt="github icon"
+                              />
+                            </a>
+                          </figure>
+                          <figure className="hover:scale-125 p-0">
+                            <a href="#">
+                              <img
+                                className="w-5"
+                                src="./images/twitter.png"
+                                alt="twitter"
+                              />
+                            </a>
+                          </figure>
+                        </div>
                       </li>
                     </ul>
                   </div>
@@ -148,6 +166,7 @@ export default function Contact({ smallDevices }) {
                     <img src="./images/email.png" className="w-5" />
                     <span>mulaudzifhatuwanib20@gmail.com</span>
                   </li>
+                  <li></li>
                 </ul>
               </div>
               <form

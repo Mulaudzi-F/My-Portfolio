@@ -12,7 +12,7 @@ export default function Aboutme({ smallDevices }) {
     const options = {
       root: null, // Use the viewport as the root
       rootMargin: "0px", // No margin
-      threshold: 0.3, // Trigger when 30% of the element is visible
+      threshold: 0.15, // Trigger when 30% of the element is visible
     };
 
     const callback = (entries, observer) => {
@@ -43,7 +43,7 @@ export default function Aboutme({ smallDevices }) {
         <Element name="about" className="about">
           <section
             ref={aboutRef}
-            className="About__me section relative mt:50 sm:mt-20 md:h-screen font-serif overflow-x-hidden"
+            className="About__me section  mt-50 sm:mt-20 md:h-screen font-serif overflow-x-hidden"
           >
             <div className=" mt-8">
               <h1 className="text-center font-serif underline decoration-8 decoration-[#83c5be] text-3xl">

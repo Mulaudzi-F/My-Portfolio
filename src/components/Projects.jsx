@@ -18,7 +18,7 @@ export default function Project({ smallDevices }) {
     const options = {
       root: null, // Use the viewport as the root
       rootMargin: "0px", // No margin
-      threshold: 0.15, // Trigger when 50% of the element is visible
+      threshold: 0.15, // Trigger when 10% of the element is visible
     };
 
     const callback = (entries, observer) => {
@@ -47,7 +47,7 @@ export default function Project({ smallDevices }) {
     <div>
       {smallDevices < 768 ? (
         <Element name="projects" className="projects">
-          <div ref={projectRef} className="overflow-x-hidden mt-60 $ section">
+          <div ref={projectRef} className="overflow-x-hidden mt-60  section">
             <h1 className="text-center underline decoration-8 decoration-[#83c5be]  text-3xl">
               My Projects
             </h1>
@@ -58,7 +58,7 @@ export default function Project({ smallDevices }) {
         </Element>
       ) : (
         <AnimatedPages>
-          <div className="overflow-x-hidden mt-60">
+          <div className="overflow-x-hidden mt-20">
             <h1 className="text-center underline decoration-8 decoration-[#83c5be]  text-3xl">
               My Projects
             </h1>

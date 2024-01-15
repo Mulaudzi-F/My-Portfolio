@@ -52,20 +52,45 @@ export default function Contact({ smallDevices }) {
             <div className="flex flex-col lg:flex-row gap-7 overflow-x-hidden mt-10 w-full border-2 items-center  rounded-t-2xl  pt-10 pl-20">
               <div className="  mx-20">
                 <h2 className="text-xl">Get in Touch</h2>
-                <p className="pt-4 ">
-                  I would love the opportunity to connect with you and discuss
-                  potential synergies or explore ways we could collaborate.{" "}
-                </p>
-                <ul className="pt-10">
-                  <li className="flex">
-                    <img src="./images/phone.png" className="w-5" />
-                    <span>069 370 1969</span>
-                  </li>
-                  <li className="flex">
-                    <img src="./images/email.png" className="w-5" />
-                    <span>mulaudzifhatuwanib20@gmail.com</span>
-                  </li>
-                </ul>
+                <div className="flex">
+                  <div className="nav__icons flex-col w-1/2">
+                    <figure className="hover:scale-125 ">
+                      <a
+                        href=" https:www.linkedin.com/in/fhatuwani-brighton-mulaudzi-a861791b8"
+                        target="blank"
+                      >
+                        <img src="./images/linkedin.png" alt="linkedin icon" />
+                      </a>
+                    </figure>
+                    <figure className="hover:scale-125">
+                      <a href="https://github.com/Mulaudzi-F" target="blank">
+                        <img src="./images/github.png" alt="github icon" />
+                      </a>
+                    </figure>
+                    <figure className="hover:scale-125">
+                      <a href="#">
+                        <img src="./images/twitter.png" alt="twitter" />
+                      </a>
+                    </figure>
+                  </div>
+                  <div>
+                    <p className="pt-4 ">
+                      I would love the opportunity to connect with you and
+                      discuss potential synergies or explore ways we could
+                      collaborate.{" "}
+                    </p>
+                    <ul className="pt-10">
+                      <li className="flex">
+                        <img src="./images/phone.png" className="w-5" />
+                        <span>069 370 1969</span>
+                      </li>
+                      <li className="flex">
+                        <img src="./images/email.png" className="w-5" />
+                        <span>mulaudzifhatuwanib20@gmail.com</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
               <form
                 action="https://formsubmit.co/mulaudzifhatuwanib20@gmail.com"
@@ -103,7 +128,7 @@ export default function Contact({ smallDevices }) {
         </Element>
       ) : (
         <AnimatedPages>
-          <div className="w-full overflow-x-hidden mt-40 p-10 shadow-lg px-10 ">
+          <div className="w-full overflow-x-hidden mt-10 p-10 shadow-lg px-10 ">
             <h2 className="text-center underline decoration-[#83c5be] decoration-8 text-3xl">
               Contact Me
             </h2>

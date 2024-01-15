@@ -10,7 +10,7 @@ export default function Skills({ smallDevices }) {
     const options = {
       root: null, // Use the viewport as the root
       rootMargin: "0px", // No margin
-      threshold: 0.5, // Trigger when 50% of the element is visible
+      threshold: 0.3, // Trigger when 50% of the element is visible
     };
 
     const callback = (entries, observer) => {

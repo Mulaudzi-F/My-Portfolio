@@ -7,7 +7,7 @@ export default function SmallNav({ openSideNav, handleSideNav }) {
     <div
       className={`bg-[#83c5be]  ${
         openSideNav ? "block" : "invisible"
-      } z-10 w-1/2 rounded shadow-lg  `}
+      } z-10 w-1/4 rounded shadow-lg  `}
     >
       <h1 onClick={handleSideNav} className=" text-end text-3xl z-10">
         <ion-icon name="close-outline"></ion-icon>

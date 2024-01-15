@@ -7,12 +7,9 @@ export default function ProjectCard({ item }) {
         <img className="object-cover rounded-t-xl " src={item.image} />
       </div>
       <div className="flex justify-between mt-2">
-        <h2 className="ml-8 text-xl">{item.name}</h2>
-        <button className=" rounded-md flex item-center p-3 bg-[#0077b6] m-2 ">
-          <a
-            href={item.browserLink}
-            className="relative mr-2 mt-2  text-[#edede9]"
-          >
+        <h2 className="ml-8 p-2 text-xl">{item.name}</h2>
+        <button className=" rounded-md flex item-center p-2 bg-[#0077b6] m-2 ">
+          <a href={item.browserLink} className="relative mr-2   text-[#edede9]">
             View
           </a>
         </button>

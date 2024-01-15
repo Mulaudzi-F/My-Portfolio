@@ -43,7 +43,7 @@ export default function Home({ smallDevices }) {
         <Element>
           <section
             ref={homeRef}
-            className="home section w-full sm:pt-10 pt-20 overflow-x-hidden sm:justify-center  max-w-full "
+            className="home section w-full h-auto sm:pt-10 pt-10 overflow-x-hidden sm:justify-center  max-w-full "
             id="home"
           >
             <div className="section1__container  lg: lg:flex-row w-full lg:font-bold  flex items-center flex-col">
@@ -60,17 +60,17 @@ export default function Home({ smallDevices }) {
                 </h3>
                 {smallDevices < 768 ? (
                   <p className="animated-text ">
-                    <span className="first-text  after::bg-[#cccccc]"></span>
+                    <span className="first-text  bg-[#cccccc]"></span>
                   </p>
                 ) : (
                   <p>I'm a Developer</p>
                 )}
-                <p>
+                <span>
                   Within these digital realms, lies the culmination of my
                   passion for coding, problem-solving, and turning ideas into
                   elegant solutions
-                </p>
-                <button className="bg-[#83c5be] p-6 px-16 pt-3 lg:px-16 rounded-lg">
+                </span>
+                <button className="bg-[#83c5be] mx-6 px-16 py-2 lg:px-16  rounded-lg">
                   <a href="https://sdjawcnmmtbmbazgcgor.supabase.co/storage/v1/object/public/potfolio%20files/FHATUWANI%20MULAUDZI%20Javascript%20developer.pdf?t=2024-01-09T10%3A13%3A59.097Z">
                     Get Cv
                   </a>
@@ -109,7 +109,7 @@ export default function Home({ smallDevices }) {
                   passion for coding, problem-solving, and turning ideas into
                   elegant solutions
                 </p>
-                <button className="bg-[#83c5be] p-6 px-16 pt-4 mx-16 lg:px-16 rounded-lg">
+                <button className="bg-[#83c5be]  px-16 py-2 mx-16 lg:px-16 rounded-lg">
                   <a href="https://sdjawcnmmtbmbazgcgor.supabase.co/storage/v1/object/public/potfolio%20files/FHATUWANI%20MULAUDZI%20Javascript%20developer.pdf?t=2024-01-09T10%3A13%3A59.097Z">
                     Get Cv
                   </a>

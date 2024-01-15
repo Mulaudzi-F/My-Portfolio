@@ -47,7 +47,7 @@ export default function Project({ smallDevices }) {
     <div>
       {smallDevices < 768 ? (
         <Element name="projects" className="projects">
-          <div ref={projectRef} className="overflow-x-hidden mt-60  section">
+          <div ref={projectRef} className="overflow-x-hidden  mt-60  section">
             <h1 className="text-center underline decoration-8 decoration-[#83c5be]  text-3xl">
               My Projects
             </h1>

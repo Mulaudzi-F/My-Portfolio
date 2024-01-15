@@ -54,7 +54,7 @@ export default function Contact({ smallDevices }) {
                 <h2 className="text-xl">Get in Touch</h2>
                 <div className="flex">
                   <div className="nav__icons flex-col w-1/2">
-                    <figure className="hover:scale-125 ">
+                    <figure className="hover:scale-125 p-0 ">
                       <a
                         href=" https:www.linkedin.com/in/fhatuwani-brighton-mulaudzi-a861791b8"
                         target="blank"
@@ -62,12 +62,12 @@ export default function Contact({ smallDevices }) {
                         <img src="./images/linkedin.png" alt="linkedin icon" />
                       </a>
                     </figure>
-                    <figure className="hover:scale-125">
+                    <figure className="hover:scale-125 p-0">
                       <a href="https://github.com/Mulaudzi-F" target="blank">
                         <img src="./images/github.png" alt="github icon" />
                       </a>
                     </figure>
-                    <figure className="hover:scale-125">
+                    <figure className="hover:scale-125 p-0">
                       <a href="#">
                         <img src="./images/twitter.png" alt="twitter" />
                       </a>

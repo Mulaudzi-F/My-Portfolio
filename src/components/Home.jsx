@@ -1,14 +1,49 @@
 import React from "react";
 import AnimatedPages from "./AnimatedPage";
 import { Element } from "react-scroll";
+import { useState, useEffect, useRef } from "react";
 
 export default function Home({ smallDevices }) {
+  // -------------------Revealing sections------------------------//
+
+  const homeRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null, // Use the viewport as the root
+      rootMargin: "0px", // No margin
+      threshold: 0.15, // Trigger when 50% of the element is visible
+    };
+
+    const callback = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        if (entry.isIntersecting) {
+          homeRef.current.classList.remove("showSection");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(callback, options);
+
+    if (homeRef.current) {
+      observer.observe(homeRef.current);
+      homeRef.current.classList.remove("showSection");
+    }
+
+    // Cleanup the observer when the component unmounts
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   return (
     <div>
       {smallDevices < 768 ? (
         <Element>
           <section
-            className="home w-full sm:pt-10 pt-20 overflow-x-hidden sm:justify-center  max-w-full "
+            ref={homeRef}
+            className="home section w-full sm:pt-10 pt-20 overflow-x-hidden sm:justify-center  max-w-full "
             id="home"
           >
             <div className="section1__container  lg: lg:flex-row w-full lg:font-bold  flex items-center flex-col">

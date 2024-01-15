@@ -1,14 +1,51 @@
 import React from "react";
 import AnimatedPages from "./AnimatedPage";
 import { Element } from "react-scroll";
+import { useState, useEffect, useRef } from "react";
 
 export default function Contact({ smallDevices }) {
+  // -------------------Revealing sections------------------------//
+
+  const contactRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null, // Use the viewport as the root
+      rootMargin: "0px", // No margin
+      threshold: 0.15, // Trigger when 50% of the element is visible
+    };
+
+    const callback = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        if (entry.isIntersecting) {
+          contactRef.current.classList.remove("showSection");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(callback, options);
+
+    if (contactRef.current) {
+      observer.observe(contactRef.current);
+      contactRef.current.classList.add("showSection");
+    }
+
+    // Cleanup the observer when the component unmounts
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   return (
     <div>
       {smallDevices < 768 ? (
         <Element name="contact" className="contact">
           {" "}
-          <div className="w-full overflow-x-hidden mt-40 p-10 shadow-lg px-10 ">
+          <div
+            ref={contactRef}
+            className="w-full section overflow-x-hidden mt-40 p-10 shadow-lg px-10 "
+          >
             <h2 className="text-center underline decoration-[#83c5be] decoration-8 text-3xl">
               Contact Me
             </h2>

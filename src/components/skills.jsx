@@ -1,14 +1,48 @@
 import React from "react";
 import AnimatedPages from "./AnimatedPage";
 import { Element } from "react-scroll";
+import { useState, useEffect, useRef } from "react";
 
 export default function Skills({ smallDevices }) {
+  const skillsRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null, // Use the viewport as the root
+      rootMargin: "0px", // No margin
+      threshold: 0.5, // Trigger when 50% of the element is visible
+    };
+
+    const callback = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        if (entry.isIntersecting) {
+          skillsRef.current.classList.remove("showSection");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(callback, options);
+
+    if (skillsRef.current) {
+      observer.observe(skillsRef.current);
+      skillsRef.current.classList.add("showSection");
+    }
+
+    // Cleanup the observer when the component unmounts
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   return (
+    // -------------------Revealing sections------------------------//
+
     <div>
       {smallDevices < 768 ? (
         <Element name="skills" className="skills">
           {" "}
-          <section>
+          <section ref={skillsRef}>
             <h1 className="text-center underline decoration-8  decoration-[#83c5be] text-4xl mt-10 relative top-16">
               Skills
             </h1>

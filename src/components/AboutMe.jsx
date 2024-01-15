@@ -94,16 +94,17 @@ export default function Aboutme({ smallDevices }) {
               </div>
               <div className="about__content mx-10 overflow-x-hidden ">
                 <p className="overflow-hidden">
-                  Welcome to my digital world of innovation and creativity! I am
-                  thrilled to introduce you to my journey as an aspiring
-                  software developer. Within these digital realms, you'll
-                  discover the culmination of my passion for coding,
-                  problem-solving, and turning ideas into elegant solutions. As
-                  an entry-level software developer, I'm on an exciting quest to
-                  explore the endless possibilities of technology. This
-                  portfolio is a testament to my dedication and commitment to
-                  honing my skills and pushing the boundaries of what's possible
-                  in the world of software development.
+                  I'm Fhatuwani Brighton Mulaudzi, a 24-year-old professional
+                  with a Bachelor of Science in Chemistry and Biochemistry. I am
+                  a proud alumnus of Codespace Academy, where I honed my skills
+                  and passion for software development. Residing in Midrand,
+                  Pretoria, I thrive in the dynamic field of technology,
+                  particularly in software development. My journey has equipped
+                  me with a solid foundation in both scientific principles and
+                  cutting-edge programming expertise. With a commitment to
+                  continuous learning and a love for crafting innovative
+                  solutions, I am dedicated to contributing my skills to the
+                  ever-evolving landscape of web development.
                 </p>
                 <p className="font-bold">
                   <span>Let's code the future together!</span>

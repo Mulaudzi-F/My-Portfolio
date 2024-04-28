@@ -7,6 +7,8 @@ export default function Aboutme({ smallDevices }) {
   // -------------------Revealing sections------------------------//
 
   const aboutRef = useRef(null);
+  const currentYear = new Date();
+  const myAge = currentYear.getFullYear() - 2000;
 
   useEffect(() => {
     const options = {
@@ -60,17 +62,17 @@ export default function Aboutme({ smallDevices }) {
               </div>
               <div className="about__content mx-10 overflow-x-hidden ">
                 <p className="overflow-hidden">
-                  I'm Fhatuwani Brighton Mulaudzi, a 24-year-old professional
-                  with a Bachelor of Science in Chemistry and Biochemistry. I am
-                  a proud alumnus of Codespace Academy, where I honed my skills
-                  and passion for software development. Residing in Midrand,
-                  Pretoria, I thrive in the dynamic field of technology,
-                  particularly in software development. My journey has equipped
-                  me with a solid foundation in both scientific principles and
-                  cutting-edge programming expertise. With a commitment to
-                  continuous learning and a love for crafting innovative
-                  solutions, I am dedicated to contributing my skills to the
-                  ever-evolving landscape of web development.
+                  I'm Fhatuwani Brighton Mulaudzi, a {myAge}-year-old
+                  professional with a Bachelor of Science in Chemistry and
+                  Biochemistry. I am a proud alumnus of Codespace Academy, where
+                  I honed my skills and passion for software development.
+                  Residing in Midrand, Pretoria, I thrive in the dynamic field
+                  of technology, particularly in software development. My
+                  journey has equipped me with a solid foundation in both
+                  scientific principles and cutting-edge programming expertise.
+                  With a commitment to continuous learning and a love for
+                  crafting innovative solutions, I am dedicated to contributing
+                  my skills to the ever-evolving landscape of web development.
                 </p>
               </div>
             </div>
